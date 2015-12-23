@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/map.dtd">
+<map id="framework">
+    <title>Create a Responsive HTML/CSS Framework</title>
+    <topicref href="c_responsive_framework.dita" />
+    <topicref href="t_css_float_grid.dita" collection-type="family">
+    	<topicref href="c_responsive_grid.dita" />
+    	<topicref href="r_common_screens.dita" />
+        <topicref href="t_set_viewport.dita" />
+    </topicref>
+    <topicref href="t_headers.dita">
+        <topicref href="r_common_header_sizes.dita"/>
+    </topicref>
+</map>

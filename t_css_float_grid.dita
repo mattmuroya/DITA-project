@@ -1,31 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
-<task id="prose">
-  <title>Create a post with Prose.io</title>
-  <shortdesc>These steps will guide you through the process of creating a text file in GitHub using Prose.io</shortdesc>
-  <taskbody>
-    <steps>
-            <step>
-                <cmd>Open your internet browser</cmd>
-            </step>
-            <step>
-                <cmd>Log into github.com</cmd>
-            </step>
-            <step>
-                <cmd>Lot into Prose.io with github authorization</cmd>
-            </step>
-            <step>
-                <cmd>Navigate to appropriate directory/team folder</cmd>
-            </step>
-            <step>
-                <cmd>Click "new file" and compose text in GH markdown</cmd>
-            </step>
-            <step>
-                <cmd>Rename file using format: "LastName-FirstInitial-Wk#"</cmd>
-            </step>
-            <step>
-                <cmd>Click "save" and "commit" to publish to GitHub</cmd>
-            </step>
-        </steps>
-  </taskbody>
-</task>
+    <task id="float_grid">
+        <title>Create a Basic Responsive CSS Grid</title>
+        <shortdesc>These steps will guide you through the process of creating a basic two-column responsive CSS grid.</shortdesc>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open your HTML document and create a basic div-based structure:</cmd>
+                    <stepxmp>
+                        <codeblock>
+&lt;div class="container"&gt;
+    &lt;div class="header"&gt;&lt;/div&gt;
+    &lt;div class="main"&gt;&lt;/div&gt;
+    &lt;div class="sidebar"&gt;&lt;/div&gt;
+    &lt;div class="footer"&gt;&lt;/div&gt;
+&lt;/div&gt;
+                        </codeblock>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Open the corresponding CSS document and style the container. The width you set to the container will determine the max width of all content. Use a percent-based width in order for the container to be resizable.</cmd>
+                    <stepxmp>
+                        <codeblock>
+.container {
+    width: 90%;
+    margin: 0 auto; /* to center the container */
+}
+                        </codeblock>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Style your main and sidebar divs. The widths you set here will determine how the columns fit inside the container. The float left lines the columns up side by side.</cmd>
+                    <stepxmp>
+                        <codeblock>
+.main {
+    width: 75%;
+    float: left;
+}
+
+.sidebar {
+    width: 25%;
+    float: left;
+}
+                        </codeblock>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add the clear:both property to your footer. This ensures that the footer is pushed the bottom of the layout since the float property takes the main and sidebar divs out of the normal document flow.</cmd>
+                    <stepxmp>
+                        <codeblock>
+.footer {
+    clear: both;
+}
+                        </codeblock>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd id="determine_breakpoint">Determine the breakpoint(s) at which your content should reflow. This breakpoint may be sized in pixels or in ems. For this example, we will use <ph id="breakpoint">568px</ph></cmd>
+                </step>
+                <step>
+                    <cmd>Add a media query to your CSS document at your predetermined breakpoint and redefine your main and sidebard divs to full width:</cmd>
+                    <stepxmp>
+                        <codeblock>
+@media screen (max-width: <ph conref="#float_grid/breakpoint" />) {
+
+    .main {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+}
+                        </codeblock>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>

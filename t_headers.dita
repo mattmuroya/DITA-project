@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+    <task id="headerscheme">
+        <title>Create a Header Font Scheme</title>
+        <shortdesc>Fonts and headers should follow a general sizing scheme. Use CSS to size your headers appropriately. To </shortdesc>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open your CSS document and add rules for each header you wish to syle and size it accordingly:</cmd>
+                    <stepxmp>
+                        <codeblock>
+h1 {
+    font-size: 36px;
+}
+                        </codeblock>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>If you would like the header to resize at a smaller screen width, add a media query containing the header(s) in question with an appropriate size:</cmd>
+                    <stepxmp>
+                        <codeblock>
+@media screen (max-width: <ph conref="t_css_float_grid.dita#float_grid/breakpoint" />) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+}
+                        </codeblock>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>

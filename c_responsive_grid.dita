@@ -5,7 +5,8 @@
     <shortdesc>A responsive CSS grid is a set of CSS classes that allow designers to create fluid grid-based layouts for web pages that adapt to various screen sizes and dimensions</shortdesc>
     <conbody>
         <p>Responsive CSS grids allow you to create web page layouts that will adapt to various screen sizes and dimensions. These grids are set to deform and collapse at predetermined pixel-based breakpoints so that content fits fluidly to smaller screens.</p>
-        <p>Responsive grids can be set up in several different ways, but the most practical for our use is by using percentage-based column widths and implementing media queries to define breakpoints. Grids are divided into rows, and in each row a set number of columns can be defined. These columns and their widths and properties are defined using CSS classes.</p>
+
+        <p>Responsive grids can be set up in several different ways, but the most practical for our use is by using percentage-based column widths and implementing media queries to define breakpoints. Grids are generally divided into rows, and in each row a set number of columns can be defined. These columns and their widths and properties are defined using CSS classes.</p>
         <p>The advantage to using responsive grids is that your content will flow seamlessly between devices and you can design for larger screens while also taking into consideration how your content will appear on smaller devices.</p>
     </conbody>
 </concept>

@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
-<task id="prose">
-  <title>Create a post with Prose.io</title>
-  <shortdesc>These steps will guide you through the process of creating a text file in GitHub using Prose.io</shortdesc>
-  <taskbody>
-    <steps>
-            <step>
-                <cmd>Open your internet browser</cmd>
-            </step>
-            <step>
-                <cmd>Log into github.com</cmd>
-            </step>
-            <step>
-                <cmd>Lot into Prose.io with github authorization</cmd>
-            </step>
-            <step>
-                <cmd>Navigate to appropriate directory/team folder</cmd>
-            </step>
-            <step>
-                <cmd>Click "new file" and compose text in GH markdown</cmd>
-            </step>
-            <step>
-                <cmd>Rename file using format: "LastName-FirstInitial-Wk#"</cmd>
-            </step>
-            <step>
-                <cmd>Click "save" and "commit" to publish to GitHub</cmd>
-            </step>
-        </steps>
-  </taskbody>
-</task>
+    <task id="viewport">
+        <title>Set the Viewport Scale</title>
+        <shortdesc>Sometimes, if the viewport is not properly set, your responsive layouts will not collapse properly on mobile devices. To ensure proper scaling and zoom on mobile browsers, make sure to set the viewport meta tag in the head of each of your HTML documents.</shortdesc>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open your HTML document.</cmd>
+                </step>
+                <step>
+                    <cmd>Add the following code to your document head. Setting the width to determine the device-width ensures the optimized display of content, while the initial scale to 1 sets the proper zoom level.</cmd>
+                    <stepxmp>
+                        <codeblock>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</codeblock>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Save and close your HTML document.</cmd>
+                </step>
+                <step>
+                    <cmd>Repeat for all documents.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>

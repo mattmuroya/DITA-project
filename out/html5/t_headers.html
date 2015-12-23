@@ -1,0 +1,57 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="task">
+<meta name="description" content="Fonts and headers should follow a general sizing scheme. Use CSS to size your headers appropriately. To"><meta name="DC.Relation" scheme="URI" content="r_common_header_sizes.html">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="headerscheme">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Create a Header Font Scheme</title>
+</head>
+<body id="headerscheme">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+        <h1 class="title topictitle1" id="ariaid-title1">Create a Header Font Scheme</h1>
+
+        
+        <div class="body taskbody"><p class="shortdesc">Fonts and headers should follow a general sizing scheme. Use CSS to size your headers appropriately. To </p>
+
+            <ol class="ol steps"><li class="li step stepexpand">
+                    <span class="ph cmd">Open your CSS document and add rules for each header you wish to syle and size it accordingly:</span>
+                    <div class="itemgroup stepxmp">
+                        <pre class="pre codeblock">
+h1 {
+    font-size: 36px;
+}
+                        </pre>
+
+                    </div>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">If you would like the header to resize at a smaller screen width, add a media query containing the header(s) in question with an appropriate size:</span>
+                    <div class="itemgroup stepxmp">
+                        <pre class="pre codeblock">
+@media screen (max-width: <span class="ph">568px</span>) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+}
+                        </pre>
+
+                    </div>
+                </li>
+</ol>
+
+        </div>
+
+    <nav role="navigation" class="related-links">
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a href="r_common_header_sizes.html">Common Header Sizes</a></strong><br>
+Headers may be sized in px or em. This table provides some standard relative header sizes. These sizes may be adjusted based on your design needs.</li>
+</ul>
+</nav></article></main></body>
+</html>
