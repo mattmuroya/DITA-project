@@ -15,19 +15,19 @@
 			<tbody>
 				<row>
 					<entry>h1</entry>
-					<entry>1440px</entry>
+					<entry>36px</entry>
 				</row>
                 <row>
 					<entry>h2</entry>
-					<entry>1024px</entry>
+					<entry>24px</entry>
 				</row>
 				<row>
 					<entry>h3</entry>
-					<entry>568px</entry>
+					<entry>14px</entry>
 				</row>
                 <row>
 					<entry>h4</entry>
-					<entry>568px</entry>
+					<entry>18px</entry>
 				</row>
 			</tbody>
 		</tgroup>
