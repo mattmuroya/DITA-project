@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="headers">
   <title>Common Header Sizes</title>
-  <shortdesc>There are a large variety of different device screen dimensions. This table provides some common sizes to consider when determining breakpoints.</shortdesc>
+  <shortdesc>Headers may be sized in px or em. This table provides some standard relative header sizes. These sizes may be adjusted based on your design needs.</shortdesc>
   <refbody>
   	<table>
 		<tgroup cols="2">
