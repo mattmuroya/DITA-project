@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="headers">
+  <title>Common Header Sizes</title>
+  <shortdesc>There are a large variety of different device screen dimensions. This table provides some common sizes to consider when determining breakpoints.</shortdesc>
+  <refbody>
+  	<table>
+		<tgroup cols="2">
+			<thead>
+				<row>
+				    <entry colname="device">Header</entry>
+				    <entry colname="width">font-size</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>h1</entry>
+					<entry>1440px</entry>
+				</row>
+                <row>
+					<entry>h2</entry>
+					<entry>1024px</entry>
+				</row>
+				<row>
+					<entry>h3</entry>
+					<entry>568px</entry>
+				</row>
+                <row>
+					<entry>h4</entry>
+					<entry>568px</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+  </refbody>
+</reference>

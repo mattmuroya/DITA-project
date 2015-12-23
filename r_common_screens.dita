@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="screens">
+  <title>Common Device Screen Dimensions</title>
+  <shortdesc>There are a large variety of different device screen dimensions. This table provides some common sizes to consider when determining breakpoints.</shortdesc>
+  <refbody>
+  	<table>
+		<tgroup cols="3">
+			<thead>
+				<row>
+				    <entry colname="device">Device</entry>
+				    <entry colname="width">Screen Width</entry>
+				    <entry colname="height">Screen Height</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>Laptop</entry>
+					<entry>1440px</entry>
+					<entry>900px</entry>
+				</row>
+                <row>
+					<entry>Tablet</entry>
+					<entry>768px</entry>
+					<entry>1024px</entry>
+				</row>
+				<row>
+					<entry>Smartphone</entry>
+					<entry>320px</entry>
+					<entry>568px</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+  </refbody>
+</reference>

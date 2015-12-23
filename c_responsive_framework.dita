@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/concept.dtd">
+<concept id="responsive_framework">
+    <title>Responsive Frameworks</title>
+    <shortdesc>A responsive framework is a set of tools consisting of standardized files and code that can be used as the basis of a responsive website.</shortdesc>
+    <conbody>
+        <p>A framework is a set of standardized tools or concepts used to address certain types of projects. With web development in particular, frameworks consist of standardized files and code that can be used as the basis of a website. Frameworks may be positioned to provide a responsive site structure.</p>
+        <p>Responsive frameworks may include an HTML skeleton document, responsive CSS classes and elements like grids or image containers, basic styling and setup, and other files like JavaScripts that may add some extra functionality or behavior to the site.</p>
+        <p>There are many responsive frameworks available that can be used to structure the beginning of a website. You can also create your own basic framework if you'd like to customize websites that you build in the future. You may want to use a framework to structure your website so that you don't have to start from scratch each time you build a new site.</p>
+    </conbody>
+</concept>
